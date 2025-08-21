@@ -1,0 +1,38 @@
+/* html, body {
+    background: #000 !important;
+} */
+
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+ .accordion-button { 
+    font-size: 0.9rem; /* Kleinere Schrift auf Mobile */
+}
+@media (min-width: 768px) {
+    .accordion-button {
+        font-size: 1rem;
+    }
+} 
+.list-group-numbered li:has(input:checked) {
+    color: var(--bs-secondary) !important;
+}
+[data-bs-theme=dark] .accordion-button::after {
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    /* --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23XXX'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3e%3c/svg%3e"); */
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    /* --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%236ea8fe'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3e%3c/svg%3e"); */
+}
+.accordion {
+    --bs-accordion-active-bg: var(--bs-warning-bg-subtle);
+    --bs-accordion-active-color: var(--bs-text);
+    /* var(--bs-warning-bg-subtle) !important; */
+}
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 200px;
+    text-shadow: 1px 1px 6px #FFFFFF;
+    color: #000; 
+}

@@ -1,0 +1,2299 @@
+{
+    "zutaten": {
+        "grundzutaten": {
+            "mehl": {
+                "weizen": {
+                    "405": {
+                        "name": [
+                            "Weizenmehl 405"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "550": {
+                        "name": [
+                            "Weizenmehl 550",
+                            "Weizenmehl 550 A",
+                            "Weizenmehl 550 B"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "550_kleberstark": {
+                        "name": [
+                            "Weizenmehl 550 (kleberstark)"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "630": {
+                        "name": [
+                            "Weizenmehl 630"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "812": {
+                        "name": [
+                            "Weizenmehl 812"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "1050": {
+                        "name": [
+                            "Weizenmehl 1050"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "1200": {
+                        "name": [
+                            "Weizenmehl 1200"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "1600": {
+                        "name": [
+                            "Weizenmehl 1600"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "vollkorn": {
+                        "name": [
+                            "Weizenmehl Vollkorn",
+                            "Weizenvollkornmehl"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "tipo_00": {
+                        "name": [
+                            "Weizenmehl Tipo 00",
+                            "Tipo 00"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "tipo_0": {
+                        "name": [
+                            "Weizenmehl Tipo 0",
+                            "Tipo 0",
+                            "italienisches Weizenmehl Tipo 0"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "tipo_1": {
+                        "name": [
+                            "Weizenmehl Tipo 1",
+                            "Tipo 1",
+                            "italienisches Weizenmehl Tipo 1"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "tipo_2": {
+                        "name": [
+                            "Weizenmehl Tipo 2",
+                            "Tipo 2",
+                            "italienisches Weizenmehl Tipo 2"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "manitoba_550": {
+                        "name": [
+                            "Manitobamehl 550"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "t65": {
+                        "name": [
+                            "Weizenmehl T65",
+                            "französisches Weizenmehl T65"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "t80": {
+                        "name": [
+                            "Weizenmehl T80",
+                            "französisches Weizenmehl T80"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "ruch": {
+                        "name": [
+                            "Ruchmehl (Weizen)"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "dunst_550": {
+                        "name": [
+                            "Weizendunst 550"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "kamut": {
+                        "name": [
+                            "Kamutmehl"
+                        ],
+                        "getreide": "Khorasan-Weizen"
+                    },
+                    "kamut_550": {
+                        "name": [
+                            "Kamutmehl 550"
+                        ],
+                        "getreide": "Khorasan-Weizen"
+                    },
+                    "kamut_812": {
+                        "name": [
+                            "Kamutmehl 812"
+                        ],
+                        "getreide": "Khorasan-Weizen"
+                    },
+                    "kamut_vollkorn": {
+                        "name": [
+                            "Kamutvollkornmehl"
+                        ],
+                        "getreide": "Khorasan-Weizen"
+                    },
+                    "griess": {
+                        "name": [
+                            "Weichweizengrieß"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "gelbmehl_550": {
+                        "name": [
+                            "Gelbmehlweizenmehl 550"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "gelbmehl_vollkorn": {
+                        "name": [
+                            "Gelbmehlweizenvollkornmehl"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "laufener_land_800": {
+                        "name": [
+                            "Laufener Landweizen-Mehl 800"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "laufener_land_1100": {
+                        "name": [
+                            "Laufener Landweizen-Mehl 1100"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "laufener_land_vollkorn": {
+                        "name": [
+                            "Laufener Landweizen-Vollkornmehl"
+                        ],
+                        "getreide": "Weizen"
+                    },
+                    "rotkorn_ruchmehl": {
+                        "name": [
+                            "Ruchmehl (Rotkornweizen)"
+                        ],
+                        "getreide": "Rotkornweizen"
+                    },
+                    "rotkorn_vollkorn": {
+                        "name": [
+                            "Rotkornweizenvollkornmehl"
+                        ],
+                        "getreide": "Rotkornweizen"
+                    }
+                },
+                "hartweizen": {
+                    "mehl": {
+                        "name": [
+                            "Hartweizenmehl"
+                        ],
+                        "getreide": "Hartweizen"
+                    },
+                    "vollkornmehl": {
+                        "name": [
+                            "Hartweizenvollkornmehl"
+                        ],
+                        "getreide": "Hartweizen"
+                    },
+                    "semola": {
+                        "name": [
+                            "Semola di grano duro Rimacinata",
+                            "Semola di grano duro Rimacinata - gemahlenes Hartweizengrieß"
+                        ],
+                        "getreide": "Hartweizen"
+                    },
+                    "griess": {
+                        "name": [
+                            "Hartweizengrieß"
+                        ],
+                        "getreide": "Hartweizen"
+                    }
+                },
+                "roggen": {
+                    "610": {
+                        "name": [
+                            "Roggenmehl 610"
+                        ],
+                        "getreide": "Roggen"
+                    },
+                    "815": {
+                        "name": [
+                            "Roggenmehl 815"
+                        ],
+                        "getreide": "Roggen"
+                    },
+                    "997": {
+                        "name": [
+                            "Roggenmehl 997"
+                        ],
+                        "getreide": "Roggen"
+                    },
+                    "1150": {
+                        "name": [
+                            "Roggenmehl 1150"
+                        ],
+                        "getreide": "Roggen"
+                    },
+                    "1370": {
+                        "name": [
+                            "Roggenmehl 1370"
+                        ],
+                        "getreide": "Roggen"
+                    },
+                    "1740": {
+                        "name": [
+                            "Roggenmehl 1740"
+                        ],
+                        "getreide": "Roggen"
+                    },
+                    "1800": {
+                        "name": [
+                            "Roggenmehl 1800"
+                        ],
+                        "getreide": "Roggen"
+                    },
+                    "vollkorn": {
+                        "name": [
+                            "Roggenvollkornmehl"
+                        ],
+                        "getreide": "Roggen"
+                    },
+                    "lichtkorn_vollkorn": {
+                        "name": [
+                            "Lichtkornroggenvollkornmehl"
+                        ],
+                        "getreide": "Roggen"
+                    },
+                    "waldstauden_vollkorn": {
+                        "name": [
+                            "Waldstaudenroggenvollkornmehl"
+                        ],
+                        "getreide": "Roggen"
+                    },
+                    "schwarzroggen_2500": {
+                        "name": [
+                            "Schwarzroggenmehl 2500"
+                        ],
+                        "getreide": "Roggen"
+                    },
+                    "alpenroggenmehl": {
+                        "name": [
+                            "Alpenroggenmehl"
+                        ],
+                        "getreide": "Roggen"
+                    }
+                },
+                "dinkel": {
+                    "630": {
+                        "name": [
+                            "Dinkelmehl 630"
+                        ],
+                        "getreide": "Dinkel"
+                    },
+                    "812": {
+                        "name": [
+                            "Dinkelmehl 812"
+                        ],
+                        "getreide": "Dinkel"
+                    },
+                    "1050": {
+                        "name": [
+                            "Dinkelmehl 1050"
+                        ],
+                        "getreide": "Dinkel"
+                    },
+                    "vollkorn": {
+                        "name": [
+                            "Dinkelvollkornmehl"
+                        ],
+                        "getreide": "Dinkel"
+                    },
+                    "griess": {
+                        "name": [
+                            "Dinkelgrieß"
+                        ],
+                        "getreide": "Dinkel"
+                    },
+                    "ruch": {
+                        "name": [
+                            "Ruchmehl (Dinkel)"
+                        ],
+                        "getreide": "Dinkel"
+                    }
+                },
+                "einkorn": {
+                    "630": {
+                        "name": [
+                            "Einkornmehl 630"
+                        ],
+                        "getreide": "Einkorn"
+                    },
+                    "vollkorn": {
+                        "name": [
+                            "Einkornvollkornmehl"
+                        ],
+                        "getreide": "Einkorn"
+                    }
+                },
+                "emmer": {
+                    "812": {
+                        "name": [
+                            "Emmermehl 812"
+                        ],
+                        "getreide": "Emmer"
+                    },
+                    "vollkorn": {
+                        "name": [
+                            "Emmervollkornmehl"
+                        ],
+                        "getreide": "Emmer"
+                    }
+                },
+                "hafer": {
+                    "vollkorn": {
+                        "name": [
+                            "Hafervollkornmehl"
+                        ],
+                        "getreide": "Hafer"
+                    }
+                },
+                "mais": {
+                    "griess": {
+                        "name": [
+                            "Maisgrieß (Polenta)"
+                        ],
+                        "getreide": "Mais"
+                    },
+                    "weiss": {
+                        "name": [
+                            "Maismehl (weiß)"
+                        ],
+                        "getreide": "Mais"
+                    },
+                    "gelb": {
+                        "name": [
+                            "Maismehl (gelb)"
+                        ],
+                        "getreide": "Mais"
+                    }
+                },
+                "gerste": {
+                    "vollkorn": {
+                        "name": [
+                            "Gerstenvollkornmehl"
+                        ],
+                        "getreide": "Gerste"
+                    },
+                    "schwarzgerste_ruchmehl": {
+                        "name": [
+                            "Ruchmehl (Schwarzgerste)"
+                        ],
+                        "getreide": "Schwarzgerste"
+                    },
+                    "schwarzgerste_vollkorn": {
+                        "name": [
+                            "Schwarzgerstenvollkornmehl"
+                        ],
+                        "getreide": "Schwarzgerste"
+                    },
+                    "nacktgerste_vollkorn": {
+                        "name": [
+                            "Nacktgerstenvollkornmehl"
+                        ],
+                        "getreide": "Nacktgerste"
+                    }
+                },
+                "mischgetreide": {
+                    "vollkorn": {
+                        "name": [
+                            "Mischgetreidevollkornmehl"
+                        ],
+                        "getreide": "Mischgetreide"
+                    },
+                    "fuenfkorn_vollkorn": {
+                        "name": [
+                            "Fünfkornvollkornmehl"
+                        ],
+                        "getreide": "Mischgetreide"
+                    }
+                },
+                "hirse": {
+                    "goldhirse": {
+                        "name": [
+                            "Goldhirsemehl"
+                        ],
+                        "getreide": "Goldhirse"
+                    }
+                },
+                "triticale": {
+                    "zopf": {
+                        "name": [
+                            "Triticale-Zopfmehl"
+                        ],
+                        "getreide": "Triticale"
+                    },
+                    "ruch": {
+                        "name": [
+                            "Ruchmehl (Triticale)"
+                        ],
+                        "getreide": "Triticale"
+                    }
+                },
+                "reis": {
+                    "klebreismehl": {
+                        "name": [
+                            "Klebreismehl"
+                        ],
+                        "getreide": "Reis"
+                    },
+                    "mehl": {
+                        "name": [
+                            "Reismehl"
+                        ],
+                        "getreide": "Reis"
+                    },
+                    "vollkorn": {
+                        "name": [
+                            "Reisvollkornmehl"
+                        ],
+                        "getreide": "Reis"
+                    }
+                },
+                "malz": {
+                    "malzmehl_aktiv": {
+                        "name": [
+                            "Malzmehl (aktiv)",
+                            "Malzmehl aktiv"
+                        ]
+                    },
+                    "malzmehl_inaktiv": {
+                        "name": [
+                            "Malzmehl (inaktiv)",
+                            "Malzmehl inaktiv"
+                        ]
+                    },
+                    "roestmalzmehl": {
+                        "name": [
+                            "Röstmalzmehl"
+                        ]
+                    }
+                }
+            },
+            "getreideprodukte": {
+                "weizen": {
+                    "flocken": {
+                        "name": [
+                            "Weizenflocken"
+                        ]
+                    },
+                    "kleie": {
+                        "name": [
+                            "Weizenkleie"
+                        ]
+                    },
+                    "schrot": {
+                        "name": [
+                            "Weizenschrot"
+                        ]
+                    },
+                    "schrot_fein": {
+                        "name": [
+                            "Weizenschrot (fein)"
+                        ]
+                    },
+                    "schrot_mittel": {
+                        "name": [
+                            "Weizenschrot (mittel)"
+                        ]
+                    },
+                    "schrot_grob": {
+                        "name": [
+                            "Weizenschrot (grob)"
+                        ]
+                    },
+                    "vollkornschrot": {
+                        "name": [
+                            "Weizenvollkornschrot"
+                        ]
+                    },
+                    "malzschrot": {
+                        "name": [
+                            "Weizenmalzschrot"
+                        ]
+                    },
+                    "keime": {
+                        "name": [
+                            "Weizenkeime"
+                        ]
+                    }
+                },
+                "roggen": {
+                    "flocken": {
+                        "name": [
+                            "Roggenflocken"
+                        ]
+                    },
+                    "kleie": {
+                        "name": [
+                            "Roggenkleie"
+                        ]
+                    },
+                    "vollkornschrot": {
+                        "name": [
+                            "Roggenvollkornschrot"
+                        ]
+                    },
+                    "schrot_fein": {
+                        "name": [
+                            "Roggenschrot (fein)"
+                        ]
+                    },
+                    "schrot_mittel": {
+                        "name": [
+                            "Roggenschrot (mittel)"
+                        ]
+                    },
+                    "schrot_grob": {
+                        "name": [
+                            "Roggenschrot (grob)"
+                        ]
+                    }
+                },
+                "dinkel": {
+                    "flocken": {
+                        "name": [
+                            "Dinkelflocken"
+                        ]
+                    },
+                    "schrot_fein": {
+                        "name": [
+                            "Dinkelschrot (fein)"
+                        ]
+                    },
+                    "schrot_mittel": {
+                        "name": [
+                            "Dinkelschrot (mittel)"
+                        ]
+                    },
+                    "schrot_grob": {
+                        "name": [
+                            "Dinkelschrot (grob)"
+                        ]
+                    },
+                    "vollkornschrot": {
+                        "name": [
+                            "Dinkelvollkornschrot"
+                        ]
+                    },
+                    "kleie": {
+                        "name": [
+                            "Dinkelkleie"
+                        ]
+                    },
+                    "griesskleie": {
+                        "name": [
+                            "Dinkelgrießkleie"
+                        ]
+                    }
+                },
+                "hafer": {
+                    "schrot_grob": {
+                        "name": [
+                            "Haferschrot (grob)"
+                        ]
+                    },
+                    "flocken_zart": {
+                        "name": [
+                            "Haferflocken Zartblatt",
+                            "Haferflocken (Kleinblatt/Zartblatt)"
+                        ]
+                    },
+                    "flocken_grob": {
+                        "name": [
+                            "Haferflocken Grobblatt",
+                            "Haferflocken (Großblatt)"
+                        ]
+                    }
+                },
+                "gerste": {
+                    "flocken_zart": {
+                        "name": [
+                            "Gerstenflocken (fein)"
+                        ]
+                    },
+                    "flocken_grob": {
+                        "name": [
+                            "Gerstenflocken (grob)"
+                        ]
+                    },
+                    "schwarzgerste_flocken": {
+                        "name": [
+                            "Schwarzgerstenflocken"
+                        ]
+                    }
+                },
+                "hirse": {
+                    "flocken": {
+                        "name": [
+                            "Hirseflocken"
+                        ]
+                    }
+                },
+                "mais": {
+                    "schrot_mittel": {
+                        "name": [
+                            "Maisschrot (mittel)"
+                        ]
+                    }
+                },
+                "mischgetreide": {
+                    "fuenfkorn_schrot": {
+                        "name": [
+                            "Fünfkornschrot"
+                        ]
+                    },
+                    "keimschrot": {
+                        "name": [
+                            "Keimschrot"
+                        ]
+                    }
+                }
+            },
+            "fluessigkeiten": {
+                "wasser": {
+                    "name": [
+                        "Wasser",
+                        "Wasser A",
+                        "Wasser B"
+                    ]
+                },
+                "traubenmost": {
+                    "name": [
+                        "Traubenmost"
+                    ]
+                },
+                "bier": {
+                    "name": [
+                        "Bier"
+                    ]
+                },
+                "weissbier": {
+                    "name": [
+                        "Weißbier"
+                    ]
+                },
+                "schwarzbier": {
+                    "name": [
+                        "Schwarzbier"
+                    ]
+                },
+                "weißwein": {
+                    "name": [
+                        "Weißwein"
+                    ]
+                },
+                "rotwein_trocken": {
+                    "name": [
+                        "Rotwein (trocken)"
+                    ]
+                },
+                "gluehwein": {
+                    "name": [
+                        "Glühwein"
+                    ]
+                },
+                "rum": {
+                    "name": [
+                        "Rum"
+                    ]
+                },
+                "essig": {
+                    "name": [
+                        "Essig"
+                    ]
+                },
+                "apfelessig": {
+                    "name": [
+                        "Apfelessig"
+                    ]
+                },
+                "balsamico": {
+                    "name": [
+                        "Balsamico (Essig)",
+                        "Balsamico"
+                    ]
+                },
+                "apfelsaft": {
+                    "name": [
+                        "Apfelsaft"
+                    ]
+                },
+                "birnensaft": {
+                    "name": [
+                        "Birnensaft"
+                    ]
+                },
+                "kirschsaft": {
+                    "name": [
+                        "Kirschsaft"
+                    ]
+                },
+                "traubensaft_hell": {
+                    "name": [
+                        "Traubensaft (hell)",
+                        "Traubensaft hell"
+                    ]
+                },
+                "gurkenwasser_sauer": {
+                    "name": [
+                        "Gurkenwasser (sauer)",
+                        "Gurkenwasser"
+                    ]
+                }
+            },
+            "milchprodukte_pflanzlich": {
+                "sojamilch": {
+                    "name": [
+                        "Sojamilch"
+                    ]
+                },
+                "hafermilch": {
+                    "name": [
+                        "Hafermilch"
+                    ]
+                }
+            },
+            "milchprodukte": {
+                "milch": {
+                    "name": [
+                        "Milch",
+                        "Milch A",
+                        "Milch B"
+                    ]
+                },
+                "zuckermilch_quellstueck": {
+                    "name": [
+                        "Zuckermilch aus dem Quellstück"
+                    ]
+                },
+                "buttermilch": {
+                    "name": [
+                        "Buttermilch"
+                    ]
+                },
+                "sahne": {
+                    "name": [
+                        "Sahne (mind. 30 % Fett)",
+                        "Sahne"
+                    ]
+                },
+                "ziegenmilch": {
+                    "name": [
+                        "Ziegenmilch"
+                    ]
+                },
+                "schafsmilch": {
+                    "name": [
+                        "Schafsmilch"
+                    ]
+                }
+            },
+            "milchprodukte_fermentiert": {
+                "joghurt_3_5": {
+                    "name": [
+                        "Joghurt 3,5%",
+                        "Joghurt (3,5 % Fett)"
+                    ]
+                },
+                "saure_sahne": {
+                    "name": [
+                        "saure Sahne (Sauerrahm)"
+                    ]
+                },
+                "creme_fraiche": {
+                    "name": [
+                        "Crème fraîche"
+                    ]
+                },
+                "quark": {
+                    "name": [
+                        "Quark"
+                    ]
+                },
+                "quark_20": {
+                    "name": [
+                        "Quark (20 % Fett i. Tr.)"
+                    ]
+                },
+                "quark_40": {
+                    "name": [
+                        "Quark (mind. 40 % Fett i. Tr.)"
+                    ]
+                },
+                "magerquark": {
+                    "name": [
+                        "Magerquark"
+                    ]
+                },
+                "feta": {
+                    "name": [
+                        "Feta"
+                    ]
+                },
+                "kaese_gerieben": {
+                    "name": [
+                        "Käse (gerieben)",
+                        "Reibekäse"
+                    ]
+                },
+                "kraeuterfrischkaese": {
+                    "name": [
+                        "Kräuterfrischkäse"
+                    ]
+                },
+                "mozzarella": {
+                    "name": [
+                        "Mozzarella",
+                        "Mozzarella (frisch)"
+                    ]
+                },
+                "emmentaler": {
+                    "name": [
+                        "Emmentaler"
+                    ]
+                },
+                "gruyere": {
+                    "name": [
+                        "Gruyère"
+                    ]
+                },
+                "appenzeller": {
+                    "name": [
+                        "Appenzeller"
+                    ]
+                },
+                "tilsiter": {
+                    "name": [
+                        "Tilsiter",
+                        "Tilsiter Käse"
+                    ]
+                },
+                "gouda": {
+                    "name": [
+                        "Gouda"
+                    ]
+                },
+                "camembert_laenglich_oval": {
+                    "name": [
+                        "Camembert (länglich-oval)"
+                    ]
+                },
+                "hartkaese_30": {
+                    "name": [
+                        "Hartkäse (mind. 30% Fett i. Tr.)"
+                    ]
+                },
+                "parmesan": {
+                    "name": [
+                        "Parmesan"
+                    ]
+                },
+                "harzer_kaese": {
+                    "name": [
+                        "Harzer Käse"
+                    ]
+                },
+                "schafskaese": {
+                    "name": [
+                        "Schafskäse"
+                    ]
+                },
+                "ziegenkaese": {
+                    "name": [
+                        "Ziegenkäse"
+                    ]
+                },
+                "ricotta": {
+                    "name": [
+                        "Ricotta"
+                    ]
+                }
+            },
+            "eierprodukte": {
+                "eier": {
+                    "name": [
+                        "Eier",
+                        "Eier (Vollei)",
+                        "Ei"
+                    ]
+                },
+                "eigelb": {
+                    "name": [
+                        "Eigelb"
+                    ]
+                },
+                "eiweiss": {
+                    "name": [
+                        "Eiweiß",
+                        "Eiklar"
+                    ]
+                }
+            },
+            "fett": {
+                "butter": {
+                    "name": [
+                        "Butter",
+                        "Butter A",
+                        "Butter B",
+                        "Butterflocken",
+                        "Butter zum Rundschleifen",
+                        "Butter zum Tourieren"
+                    ]
+                },
+                "butter_suessrahm": {
+                    "name": [
+                        "Süßrahmbutter"
+                    ]
+                },
+                "margarine": {
+                    "name": [
+                        "Margarine"
+                    ]
+                },
+                "oel": {
+                    "name": [
+                        "Öl"
+                    ],
+                    "type": "Öl"
+                },
+                "olivenoel": {
+                    "name": [
+                        "Olivenöl"
+                    ]
+                },
+                "rapsoel": {
+                    "name": [
+                        "Rapsöl"
+                    ]
+                },
+                "leinoel": {
+                    "name": [
+                        "Leinöl"
+                    ]
+                },
+                "sonnenblumenoel": {
+                    "name": [
+                        "Sonnenblumenöl"
+                    ]
+                },
+                "sonnenblumenkernoel": {
+                    "name": [
+                        "Sonnenblumenkernöl"
+                    ]
+                },
+                "kuerbiskernoel": {
+                    "name": [
+                        "Kürbiskernöl"
+                    ]
+                },
+                "baerlauchoel": {
+                    "name": [
+                        "Bärlauchöl"
+                    ]
+                },
+                "tomatenoel": {
+                    "name": [
+                        "Öl (der getrockneten Tomaten)",
+                        "Tomatenöl"
+                    ]
+                },
+                "knoblauchoel": {
+                    "name": [
+                        "Knoblauchöl",
+                        "Knoblauch-Öl"
+                    ]
+                },
+                "schmalz": {
+                    "name": [
+                        "Schmalz"
+                    ]
+                },
+                "butterschmalz": {
+                    "name": [
+                        "Butterschmalz"
+                    ]
+                },
+                "griebenschmalz": {
+                    "name": [
+                        "Griebenschmalz"
+                    ]
+                },
+                "schweineschmalz": {
+                    "name": [
+                        "Schweineschmalz"
+                    ]
+                },
+                "kokosfett": {
+                    "name": [
+                        "Kokosfett"
+                    ]
+                },
+                "frittierfett_pflanzlich": {
+                    "name": [
+                        "Frittierfett (pflanzlich)"
+                    ]
+                }
+            },
+            "salz": {
+                "kochsalz": {
+                    "name": [
+                        "Salz",
+                        "Salz A",
+                        "Salz B",
+                        "Salz zum Rundschleifen"
+                    ]
+                },
+                "meersalz": {
+                    "name": [
+                        "Meersalz"
+                    ]
+                },
+                "steinsalz": {
+                    "name": [
+                        "Steinsalz"
+                    ]
+                },
+                "fleur_de_sel": {
+                    "name": [
+                        "Fleur de Sel"
+                    ],
+                    "type": "Fleur de Sel"
+                },
+                "salz_grob": {
+                    "name": [
+                        "Salz (grob)",
+                        "grobes Salz"
+                    ]
+                },
+                "salz_fein": {
+                    "name": [
+                        "Salz (fein)",
+                        "feines Salz"
+                    ]
+                },
+                "brezelsalz": {
+                    "name": [
+                        "Brezelsalz"
+                    ]
+                }
+            }
+        },
+        "trieb_und_struktur": {
+            "triebmittel": {
+                "hefe_frisch": {
+                    "name": [
+                        "Frischhefe",
+                        "Frischhefe (konventionell)"
+                    ]
+                },
+                "hefe_frisch_bio": {
+                    "name": [
+                        "Frischhefe (bio)"
+                    ]
+                },
+                "hefe_trocken": {
+                    "name": [
+                        "Trockenhefe"
+                    ]
+                },
+                "hefewasser": {
+                    "name": [
+                        "Hefewasser"
+                    ]
+                },
+                "backpulver": {
+                    "name": [
+                        "Backpulver"
+                    ]
+                },
+                "natron": {
+                    "name": [
+                        "Natron"
+                    ]
+                },
+                "pottasche": {
+                    "name": [
+                        "Pottasche"
+                    ]
+                },
+                "hirschhornsalz": {
+                    "name": [
+                        "Hirschhornsalz"
+                    ]
+                },
+                "weizenanstellgut": {
+                    "name": [
+                        "Weizenanstellgut",
+                        "Lievito Madre",
+                        "Weizen-Sauerteig Anstellgut"
+                    ]
+                },
+                "weizenanstellgut_alt": {
+                    "name": [
+                        "Altes Weizenanstellgut",
+                        "altes Weizenanstellgut"
+                    ]
+                },
+                "roggenanstellgut": {
+                    "name": [
+                        "Roggenanstellgut"
+                    ]
+                },
+                "roggenanstellgut_alt": {
+                    "name": [
+                        "Altes Roggenanstellgut",
+                        "altes Roggenanstellgut"
+                    ]
+                },
+                "dinkelanstellgut": {
+                    "name": [
+                        "Dinkelanstellgut"
+                    ]
+                },
+                "dinkelanstellgut_alt": {
+                    "name": [
+                        "Altes Dinkelanstellgut",
+                        "altes Dinkelanstellgut"
+                    ]
+                }
+            },
+            "backmittel": {
+                "staerke": {
+                    "kartoffelstaerke": {
+                        "name": [
+                            "Kartoffelstärke"
+                        ]
+                    },
+                    "maisstaerke": {
+                        "name": [
+                            "Maisstärke"
+                        ]
+                    },
+                    "speisestaerke": {
+                        "name": [
+                            "Speisestärke"
+                        ]
+                    },
+                    "weizenstaerke": {
+                        "name": [
+                            "Weizenstärke"
+                        ]
+                    }
+                },
+                "zusatzstoffe": {
+                    "ascorbinsaeure": {
+                        "name": [
+                            "Ascorbinsäure"
+                        ]
+                    },
+                    "acerolakirschpulver": {
+                        "name": [
+                            "Acerolakirschpulver"
+                        ]
+                    }
+                }
+            },
+            "behandlungsmittel": {
+                "natronlauge": {
+                    "name": [
+                        "Natronlauge"
+                    ]
+                }
+            }
+        },
+        "aroma_und_ergaenzungen": {
+            "pseudogetreide": {
+                "buchweizen": {
+                    "buchweizenmehl_hell": {
+                        "name": [
+                            "Buchweizenmehl (hell)"
+                        ],
+                        "getreide": "Buchweizen"
+                    },
+                    "buchweizenmehl_vollkorn": {
+                        "name": [
+                            "Buchweizenvollkornmehl"
+                        ],
+                        "getreide": "Buchweizen"
+                    }
+                }
+            },
+            "suessungsmittel": {
+                "zucker": {
+                    "name": [
+                        "Zucker",
+                        "Zucker A",
+                        "Zucker B",
+                        "Kristallzucker"
+                    ]
+                },
+                "feinkristallzucker": {
+                    "name": [
+                        "Feinkristallzucker"
+                    ]
+                },
+                "puderzucker": {
+                    "name": [
+                        "Puderzucker"
+                    ]
+                },
+                "hagelzucker": {
+                    "name": [
+                        "Hagelzucker"
+                    ]
+                },
+                "wuerfelzucker": {
+                    "name": [
+                        "Würfelzucker"
+                    ]
+                },
+                "rohrzucker": {
+                    "name": [
+                        "Rohrzucker"
+                    ]
+                },
+                "vollrohrzucker": {
+                    "name": [
+                        "Vollrohrzucker",
+                        "Muscovado",
+                        "Mascobado"
+                    ]
+                },
+                "zimtzucker": {
+                    "name": [
+                        "Zimtzucker"
+                    ]
+                },
+                "honig": {
+                    "name": [
+                        "Honig"
+                    ]
+                },
+                "bluetenhonig": {
+                    "name": [
+                        "Blütenhonig"
+                    ]
+                },
+                "ahornsirup": {
+                    "name": [
+                        "Ahornsirup"
+                    ]
+                },
+                "zuckerruebensirup": {
+                    "name": [
+                        "Zuckerrübensirup"
+                    ]
+                },
+                "traubensirup": {
+                    "name": [
+                        "Traubensirup"
+                    ]
+                },
+                "laeuterzucker": {
+                    "name": [
+                        "Läuterzucker"
+                    ]
+                },
+                "aprikosenkonfituere": {
+                    "name": [
+                        "Aprikosenkonfitüre"
+                    ]
+                },
+                "bitterorangenmarmelade": {
+                    "name": [
+                        "Bitterorangenmarmelade"
+                    ]
+                },
+                "konfituere_rot": {
+                    "name": [
+                        "Konfitüre (rot)",
+                        "Konfitüre, rot"
+                    ]
+                },
+                "fluessigmalz_aktiv": {
+                    "name": [
+                        "Flüssigmalz (aktiv)",
+                        "Flüssigmalz aktiv"
+                    ]
+                },
+                "fluessigmalz_inaktiv": {
+                    "name": [
+                        "Flüssigmalz (inaktiv)",
+                        "Flüssigmalz inaktiv"
+                    ]
+                }
+            },
+            "aromen": {
+                "gewuerze": {
+                    "anis": {
+                        "name": [
+                            "Anis"
+                        ]
+                    },
+                    "anis_fenchel_kuemmel_mischung": {
+                        "name": [
+                            "Anis-Fenchel-Kümmel-Mischung"
+                        ]
+                    },
+                    "bittermandeln": {
+                        "name": [
+                            "Bittermandeln"
+                        ]
+                    },
+                    "mandelmehl_teilentoelt": {
+                        "name": [
+                            "Mandelmehl (teilentölt)"
+                        ]
+                    },
+                    "brotgewuerz": {
+                        "name": [
+                            "Brotgewürz"
+                        ]
+                    },
+                    "chilipulver": {
+                        "name": [
+                            "Chilipulver"
+                        ]
+                    },
+                    "currypulver": {
+                        "name": [
+                            "Currypulver"
+                        ]
+                    },
+                    "erdmandelmehl": {
+                        "name": [
+                            "Erdmandelmehl"
+                        ]
+                    },
+                    "esskastanienmehl": {
+                        "name": [
+                            "Esskastanienmehl",
+                            "Kastanienmehl"
+                        ]
+                    },
+                    "suesslupinen": {
+                        "name": [
+                            "Süßlupinenmehl"
+                        ],
+                        "getreide": "Lupine"
+                    },
+                    "fenchel": {
+                        "name": [
+                            "Fenchel"
+                        ]
+                    },
+                    "kakaopulver": {
+                        "name": [
+                            "Kakaopulver"
+                        ]
+                    },
+                    "kardamom": {
+                        "name": [
+                            "Kardamom"
+                        ]
+                    },
+                    "koriander": {
+                        "name": [
+                            "Koriander"
+                        ]
+                    },
+                    "kuemmel": {
+                        "name": [
+                            "Kümmel"
+                        ]
+                    },
+                    "schwarzkuemmel": {
+                        "name": [
+                            "Schwarzkümmel"
+                        ]
+                    },
+                    "kuerbiskernmehl": {
+                        "name": [
+                            "Kürbiskernmehl"
+                        ]
+                    },
+                    "lebkuchengewuerz": {
+                        "name": [
+                            "Lebkuchengewürz"
+                        ]
+                    },
+                    "lorbeerblaetter": {
+                        "name": [
+                            "Lorbeerblätter"
+                        ]
+                    },
+                    "malzkaffee": {
+                        "name": [
+                            "Malzkaffee (ohne Zusatzstoffe)"
+                        ]
+                    },
+                    "muskatbluete": {
+                        "name": [
+                            "Macis (Muskatblüte)"
+                        ]
+                    },
+                    "muskatnuss": {
+                        "name": [
+                            "Muskatnuss"
+                        ]
+                    },
+                    "nelken": {
+                        "name": [
+                            "Nelken"
+                        ]
+                    },
+                    "paprikapulver": {
+                        "name": [
+                            "Paprikapulver"
+                        ]
+                    },
+                    "pfeffer": {
+                        "name": [
+                            "Pfeffer"
+                        ]
+                    },
+                    "pfeffer_gruen": {
+                        "name": [
+                            "Pfeffer (grün)"
+                        ]
+                    },
+                    "piment": {
+                        "name": [
+                            "Piment"
+                        ]
+                    },
+                    "safran": {
+                        "name": [
+                            "Safran"
+                        ]
+                    },
+                    "sauerteigpulver": {
+                        "name": [
+                            "Sauerteigpulver"
+                        ]
+                    },
+                    "schabzigerklee": {
+                        "name": [
+                            "Schabzigerklee"
+                        ]
+                    },
+                    "vanilleschote": {
+                        "name": [
+                            "Vanilleschote"
+                        ]
+                    },
+                    "wacholderbeeren": {
+                        "name": [
+                            "Wacholderbeeren"
+                        ]
+                    },
+                    "zimt": {
+                        "name": [
+                            "Zimt"
+                        ]
+                    },
+                    "biertreber": {
+                        "name": [
+                            "Biertreber"
+                        ]
+                    }
+                },
+                "kraeuter": {
+                    "baerlauch": {
+                        "name": [
+                            "Bärlauch"
+                        ]
+                    },
+                    "basilikum": {
+                        "name": [
+                            "Basilikum"
+                        ]
+                    },
+                    "basilikum_frisch": {
+                        "name": [
+                            "Basilikum (frisch)"
+                        ]
+                    },
+                    "basilikum_getrocknet": {
+                        "name": [
+                            "Basilikum (getrocknet)"
+                        ]
+                    },
+                    "beifuss_getrocknet": {
+                        "name": [
+                            "Beifuß (getrocknet)"
+                        ]
+                    },
+                    "brennessel_frisch": {
+                        "name": [
+                            "Brennnesselblätter (frisch)",
+                            "Brennnesselblätter"
+                        ]
+                    },
+                    "dill_frisch": {
+                        "name": [
+                            "Dill (frisch)"
+                        ]
+                    },
+                    "estragon_getrocknet": {
+                        "name": [
+                            "Estragon (getrocknet)"
+                        ]
+                    },
+                    "kraeuter": {
+                        "name": [
+                            "Kräuter"
+                        ]
+                    },
+                    "majoran_frisch": {
+                        "name": [
+                            "Majoran (frisch)"
+                        ]
+                    },
+                    "majoran_getrocknet": {
+                        "name": [
+                            "Majoran (getrocknet)"
+                        ]
+                    },
+                    "oregano": {
+                        "name": [
+                            "Oregano"
+                        ]
+                    },
+                    "oregano_getrocknet": {
+                        "name": [
+                            "Oregano (getrocknet)"
+                        ]
+                    },
+                    "petersilie": {
+                        "name": [
+                            "Petersilie"
+                        ]
+                    },
+                    "petersilie_frisch": {
+                        "name": [
+                            "Petersilie (frisch)"
+                        ]
+                    },
+                    "pfefferminz_frisch": {
+                        "name": [
+                            "Pfefferminzblätter (frisch)"
+                        ]
+                    },
+                    "rosmarin": {
+                        "name": [
+                            "Rosmarin"
+                        ]
+                    },
+                    "rosmarin_frisch": {
+                        "name": [
+                            "Rosmarin (frisch)"
+                        ]
+                    },
+                    "rosmarin_getrocknet": {
+                        "name": [
+                            "Rosmarin (getrocknet)"
+                        ]
+                    },
+                    "schnittlauch_frisch": {
+                        "name": [
+                            "Schnittlauch (frisch)"
+                        ]
+                    },
+                    "thymian": {
+                        "name": [
+                            "Thymian"
+                        ]
+                    },
+                    "thymian_frisch": {
+                        "name": [
+                            "Thymian (frisch)"
+                        ]
+                    },
+                    "thymian_getrocknet": {
+                        "name": [
+                            "Thymian (getrocknet)"
+                        ]
+                    },
+                    "wiesenkraeuter": {
+                        "name": [
+                            "Wiesenkräuter"
+                        ]
+                    }
+                },
+                "zitrus": {
+                    "zitronenschalenabrieb": {
+                        "name": [
+                            "Zitronenschalenabrieb"
+                        ]
+                    },
+                    "orangenschalenabrieb": {
+                        "name": [
+                            "Orangenschalenabrieb"
+                        ]
+                    },
+                    "orangenschalenstreifen": {
+                        "name": [
+                            "Orangenschalenstreifen"
+                        ]
+                    },
+                    "orangensaft": {
+                        "name": [
+                            "Orangensaft"
+                        ]
+                    },
+                    "zitronensaft": {
+                        "name": [
+                            "Zitronensaft"
+                        ]
+                    },
+                    "sanddornsaft": {
+                        "name": [
+                            "Sanddornsaft"
+                        ]
+                    }
+                }
+            },
+            "saaten_und_huelsenfruechte": {
+                "jasminreis": {
+                    "name": [
+                        "Jasminreis"
+                    ]
+                },
+                "weizenkoerner": {
+                    "name": [
+                        "Weizenkörner"
+                    ]
+                },
+                "einkornkoerner": {
+                    "name": [
+                        "Einkornkörner"
+                    ]
+                },
+                "emmerkoerner": {
+                    "name": [
+                        "Emmerkörner"
+                    ]
+                },
+                "buchweizenkoerner": {
+                    "name": [
+                        "Buchweizenkörner"
+                    ]
+                },
+                "rotkornweizenkoerner": {
+                    "name": [
+                        "Rotkornweizenkörner"
+                    ]
+                },
+                "waldstaudenroggenkoerner": {
+                    "name": [
+                        "Waldstaudenroggenkörner"
+                    ]
+                },
+                "maiskoerner_getrocknet": {
+                    "name": [
+                        "Maiskörner (getrocknet)"
+                    ]
+                },
+                "maiskoerner_kolben": {
+                    "name": [
+                        "Maiskörner (vom Kolben)"
+                    ]
+                },
+                "dinkelkoerner": {
+                    "name": [
+                        "Dinkelkörner"
+                    ]
+                },
+                "haferkoerner": {
+                    "name": [
+                        "Haferkörner"
+                    ]
+                },
+                "gerstenkoerner": {
+                    "name": [
+                        "Gerstenkörner"
+                    ]
+                },
+                "sesam": {
+                    "name": [
+                        "Sesam"
+                    ]
+                },
+                "sesam_schwarz": {
+                    "name": [
+                        "Sesam (schwarz)",
+                        "schwarzer Sesam"
+                    ]
+                },
+                "sesammehl": {
+                    "name": [
+                        "Sesammehl (teilentölt)"
+                    ]
+                },
+                "mohn": {
+                    "name": [
+                        "Mohn"
+                    ]
+                },
+                "graumohn": {
+                    "name": [
+                        "Graumohn"
+                    ]
+                },
+                "leinsaat": {
+                    "name": [
+                        "Leinsaat",
+                        "Leinsamen"
+                    ]
+                },
+                "leinmehl_braun": {
+                    "name": [
+                        "Leinmehl (braun)"
+                    ]
+                },
+                "kichererbsenmehl": {
+                    "name": [
+                        "Kichererbsenmehl"
+                    ]
+                },
+                "hanfsamen": {
+                    "name": [
+                        "Hanfsamen"
+                    ]
+                },
+                "chiasamen": {
+                    "name": [
+                        "Chiasamen"
+                    ]
+                },
+                "sonnenblumenkerne": {
+                    "name": [
+                        "Sonnenblumenkerne"
+                    ]
+                },
+                "sonnenblumenkernmehl": {
+                    "name": [
+                        "Sonnenblumenkernmehl"
+                    ]
+                },
+                "kuerbiskerne": {
+                    "name": [
+                        "Kürbiskerne"
+                    ]
+                },
+                "saatenmischung": {
+                    "name": [
+                        "Saatenmischung"
+                    ]
+                },
+                "roggenkoerner": {
+                    "name": [
+                        "Roggenkörner"
+                    ]
+                },
+                "hirsekoerner": {
+                    "name": [
+                        "Hirsekörner"
+                    ]
+                },
+                "flohsamenschalen": {
+                    "name": [
+                        "Flohsamenschalen"
+                    ]
+                },
+                "koriandersamen": {
+                    "name": [
+                        "Koriandersamen"
+                    ]
+                },
+                "senfkoerner": {
+                    "name": [
+                        "Senfkörner"
+                    ]
+                },
+                "fenchelsamen": {
+                    "name": [
+                        "Fenchelsamen"
+                    ]
+                },
+                "linsen": {
+                    "name": [
+                        "Linsen"
+                    ]
+                },
+                "alblinsen_leisa": {
+                    "name": [
+                        "Alblinsen Leisa"
+                    ]
+                },
+                "fuenfkorn_mischung": {
+                    "name": [
+                        "Fünfkorn-Mischung"
+                    ]
+                },
+                "lein": {
+                    "name": [
+                        "Leinmehl"
+                    ],
+                    "getreide": "Lein"
+                },
+                "lupinen_schrot": {
+                    "name": [
+                        "Lupinenschrot"
+                    ]
+                },
+                "soja_schrot": {
+                    "name": [
+                        "Sojaschrot"
+                    ]
+                }
+            },
+            "nuesse": {
+                "walnuesse": {
+                    "name": [
+                        "Walnüsse"
+                    ]
+                },
+                "walnusstrester": {
+                    "name": [
+                        "Walnusstrester"
+                    ]
+                },
+                "mandeln": {
+                    "name": [
+                        "Mandeln"
+                    ]
+                },
+                "mandelsplitter": {
+                    "name": [
+                        "Mandelsplitter"
+                    ]
+                },
+                "haselnuesskerne": {
+                    "name": [
+                        "Haselnüsse"
+                    ]
+                },
+                "pistazien": {
+                    "name": [
+                        "Pistazien"
+                    ]
+                },
+                "pinienkerne": {
+                    "name": [
+                        "Pinienkerne"
+                    ]
+                },
+                "esskastanien": {
+                    "name": [
+                        "Esskastanien",
+                        "Esskastanien (Maronen)",
+                        "Maronen"
+                    ]
+                }
+            },
+            "obst": {
+                "trockenfruechte": {
+                    "name": [
+                        "Trockenfrüchte"
+                    ]
+                },
+                "sultaninen": {
+                    "name": [
+                        "Sultaninen"
+                    ]
+                },
+                "rosinen": {
+                    "name": [
+                        "Rosinen"
+                    ]
+                },
+                "korinthen": {
+                    "name": [
+                        "Korinthen"
+                    ]
+                },
+                "orangeat": {
+                    "name": [
+                        "Orangeat"
+                    ]
+                },
+                "zitronat": {
+                    "name": [
+                        "Zitronat",
+                        "Zitronat (Sukkade)"
+                    ]
+                },
+                "apfelmark": {
+                    "name": [
+                        "Apfelmark"
+                    ]
+                },
+                "bratapfelmus": {
+                    "name": [
+                        "Bratapfelmus"
+                    ]
+                },
+                "pflaumenmus": {
+                    "name": [
+                        "Pflaumenmus"
+                    ]
+                },
+                "apfel": {
+                    "name": [
+                        "Apfel"
+                    ]
+                },
+                "banane": {
+                    "name": [
+                        "Banane"
+                    ]
+                },
+                "pflaumen_frisch": {
+                    "name": [
+                        "Pflaumen (frisch)"
+                    ]
+                },
+                "pflaumen_getrocknet": {
+                    "name": [
+                        "Pflaumen (getrocknet)",
+                        "getrocknete Pflaumen"
+                    ]
+                },
+                "aprikosen_getrocknet": {
+                    "name": [
+                        "Aprikosen (getrocknet)",
+                        "getrocknete Aprikosen"
+                    ]
+                },
+                "cranberries_getrocknet": {
+                    "name": [
+                        "Cranberries (getrocknet)",
+                        "getrocknete Cranberries"
+                    ]
+                },
+                "feigen_getrocknet": {
+                    "name": [
+                        "Feigen (getrocknet)",
+                        "getrocknete Feigen"
+                    ]
+                },
+                "erdbeeren_gefroren": {
+                    "name": [
+                        "Erdbeeren (gefroren)"
+                    ]
+                },
+                "heidelbeeren": {
+                    "name": [
+                        "Heidelbeeren"
+                    ]
+                },
+                "birne": {
+                    "name": [
+                        "Birne"
+                    ]
+                },
+                "sauerkirschen": {
+                    "name": [
+                        "Sauerkirschen"
+                    ]
+                },
+                "oliven": {
+                    "name": [
+                        "Oliven"
+                    ]
+                }
+            },
+            "gemuese": {
+                "kartoffel": {
+                    "name": [
+                        "Kartoffeln"
+                    ]
+                },
+                "hokkaidokuerbis": {
+                    "name": [
+                        "Hokkaidokürbis"
+                    ]
+                },
+                "zwiebel": {
+                    "name": [
+                        "Zwiebeln"
+                    ]
+                },
+                "zwiebellauch": {
+                    "name": [
+                        "Zwiebellauch"
+                    ]
+                },
+                "zucchini": {
+                    "name": [
+                        "Zucchini"
+                    ]
+                },
+                "rotkohl": {
+                    "name": [
+                        "Rotkohl",
+                        "Rotkraut"
+                    ]
+                },
+                "rhabarber_gefroren": {
+                    "name": [
+                        "Rhabarber (gefroren)"
+                    ]
+                },
+                "paprika_rot": {
+                    "name": [
+                        "Paprika (rot)",
+                        "rote Paprika"
+                    ]
+                },
+                "rosenkohl": {
+                    "name": [
+                        "Rosenkohl"
+                    ]
+                },
+                "moehren": {
+                    "name": [
+                        "Möhren",
+                        "Karotten"
+                    ]
+                },
+                "peperoni_eingelegt": {
+                    "name": [
+                        "Peperoni (eingelegt)",
+                        "Pfefferoni"
+                    ]
+                },
+                "knoblauch": {
+                    "name": [
+                        "Knoblauch"
+                    ]
+                },
+                "tomaten_klein": {
+                    "name": [
+                        "Tomaten (klein)",
+                        "kleine Tomaten"
+                    ]
+                },
+                "tomatenmark": {
+                    "name": [
+                        "Tomatenmark"
+                    ]
+                },
+                "tomaten_passiert": {
+                    "name": [
+                        "Tomaten (passiert)",
+                        "Tomaten-Passata"
+                    ]
+                },
+                "tomaten_getrocknet_in_oel": {
+                    "name": [
+                        "Tomaten (getrocknet, in Öl)",
+                        "getrocknete Tomaten (in Öl)"
+                    ]
+                },
+                "kuerbismus": {
+                    "name": [
+                        "Kürbismus"
+                    ]
+                },
+                "saure_gurken": {
+                    "name": [
+                        "saure Gurken"
+                    ]
+                }
+            },
+            "verarbeitete_zutaten": {
+                "meerrettich": {
+                    "name": [
+                        "Meerrettich (aus dem Glas)"
+                    ]
+                },
+                "senf": {
+                    "name": [
+                        "Senf"
+                    ]
+                },
+                "kuerbiskernpesto": {
+                    "name": [
+                        "Kürbiskernpesto"
+                    ]
+                },
+                "zartbitterkuvertuere": {
+                    "name": [
+                        "Zartbitterkuvertüre"
+                    ]
+                },
+                "schokolade_39": {
+                    "name": [
+                        "Schokolade (39 % Kakaoanteil)",
+                        "Schokolade 39 % Kakaoanteil"
+                    ]
+                },
+                "schokolade_43": {
+                    "name": [
+                        "Schokolade (43 % Kakaoanteil)",
+                        "Schokolade 43 % Kakaoanteil"
+                    ]
+                },
+                "schokolade_60": {
+                    "name": [
+                        "Schokolade (60 % Kakaoanteil)",
+                        "Schokolade 60 % Kakaoanteil"
+                    ]
+                },
+                "schokostangen_zartbitter": {
+                    "name": [
+                        "Schokostangen (Zartbitter)"
+                    ]
+                },
+                "engelshaar": {
+                    "name": [
+                        "Engelshaar (cabell d\u2019\u00e0ngel)"
+                    ]
+                },
+                "bratwurstmasse": {
+                    "name": [
+                        "Bratwurstmasse"
+                    ]
+                },
+                "blutwurst": {
+                    "name": [
+                        "Blutwurst"
+                    ]
+                },
+                "kochschinken": {
+                    "name": [
+                        "Kochschinken"
+                    ]
+                },
+                "bauchspeck": {
+                    "name": [
+                        "Bauchspeck"
+                    ]
+                },
+                "rueckenspeck": {
+                    "name": [
+                        "Rückenspeck"
+                    ]
+                },
+                "hackfleisch": {
+                    "name": [
+                        "Hackfleisch"
+                    ]
+                },
+                "muesli": {
+                    "name": [
+                        "Müsli"
+                    ]
+                },
+                "zuckerstreusel": {
+                    "name": [
+                        "Zuckerstreusel"
+                    ]
+                },
+                "gewuerzspekulatius": {
+                    "name": [
+                        "Gewürzspekulatius"
+                    ]
+                },
+                "pfefferkuchen": {
+                    "name": [
+                        "Pfefferkuchen",
+                        "Gewürzpfefferkuchen",
+                        "Pulsnitzer Gewürzpfefferkuchen"
+                    ]
+                }
+            }
+        },
+        "vorbereitete_backwaren": {
+            "altbrot": {
+                "name": [
+                    "Altbrot"
+                ]
+            },
+            "frischbrot": {
+                "name": [
+                    "Frischbrot"
+                ]
+            },
+            "malzstueck": {
+                "name": [
+                    "Malzstück"
+                ]
+            },
+            "stollenteig": {
+                "name": [
+                    "Stollenteig"
+                ]
+            },
+            "semmelbroesel": {
+                "name": [
+                    "Semmelbrösel"
+                ]
+            },
+            "broesel_suess": {
+                "name": [
+                    "süße Brösel"
+                ]
+            }
+        },
+        "referenz": {
+            "regex": [
+                "/^gesamt\\w*\\s[\\w\\säÄöÖüÜß-]+$/"
+            ]
+        }
+    },
+    "zutaten_optionen": {
+        "triebmittel": {
+            "sauerteig": {
+                "ta": [
+                    150,
+                    160,
+                    170,
+                    180,
+                    190,
+                    200,
+                    210,
+                    220,
+                    230,
+                    240,
+                    250,
+                    260,
+                    270,
+                    280,
+                    290,
+                    300
+                ]
+            }
+        },
+        "alle": [
+            "bio"
+        ]
+    }
+}

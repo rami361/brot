@@ -1,0 +1,31 @@
+# Lokaler Ordner, der nicht ins Repo soll
+/plugins/select2-customSelectionAdapter/
+/debug/
+
+# Node.js Abhängigkeiten
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# PHP / Composer
+/vendor/
+composer.lock
+
+# Build / Dist
+dist/
+build/
+.tmp/
+.cache/
+
+# Editor-spezifisch
+.idea/
+.vscode/
+*.swp
+
+# System-Dateien
+.DS_Store
+Thumbs.db
+
+# Umgebungsvariablen
+.env
+.env.local
