@@ -2,16 +2,6 @@
 setlocale(LC_ALL, 'de_DE.UTF-8') ?: exit("Error: Could not set locale de_DE.UTF-8\n");
 mb_internal_encoding("UTF-8");
 
-$scrapeBaseUrl = "https://www.ploetzblog.de";
-
-// Erstelle eine Verbindung zur MySQL-Datenbank
-$conn = new mysqli($servername, $username, $password, $dbname);
-$conn->set_charset("utf8mb4");
-
-// Überprüfe die Verbindung
-if ($conn->connect_error) {
-    die("Verbindung fehlgeschlagen: " . $conn->connect_error);
-}
 
 function prepareSql($sql) {
     global $conn;
@@ -36,30 +26,32 @@ function lastInsertId() {
     return $conn->insert_id;
 }
 
-function cleanSearchQuery($query) {
-    // Nur alphanumerische Zeichen und Leerzeichen zulassen
-    $cleanQuery = preg_replace('/[^a-zA-Z0-9\s]/', '', $query);
-    // Entferne doppelte Leerzeichen und trimme
-    $cleanQuery = preg_replace('/\s+/', ' ', trim($cleanQuery));
-    if (empty($cleanQuery)) {
-        return '';
-    }
-    // Teile in Wörter auf
-    $words = explode(' ', $cleanQuery);
-    $searchWords = array_filter($words, function($word) {
-        return strlen($word) >= 4; // Ignoriere Wörter < 4 Zeichen (ft_min_word_len)
+/**
+ * Bereinigt eine Suchanfrage von Sonderzeichen und filtert Wörter nach Mindestlänge.
+ *
+ * @param string $query Die rohe Suchanfrage.
+ * @param int $minLength Mindestlänge der Wörter (Standard: 3).
+ * @return string Die bereinigte Suchanfrage.
+ */
+function cleanSearchQuery($query, $minLength = 3) {
+    // Entferne Sonderzeichen
+    $query = preg_replace('/[^a-zA-Z0-9\s]/', '', trim($query));
+    // Filtere Wörter nach Mindestlänge
+    $words = array_filter(explode(' ', $query), function($word) use ($minLength) {
+        return strlen($word) >= $minLength;
     });
-    if (empty($searchWords)) {
-        return '';
-    }
-    // Nur der erste Begriff ist erforderlich (+), andere sind optional
-    $firstWord = array_shift($searchWords);
-    $searchQuery = '+' . $firstWord . '*';
-    if (!empty($searchWords)) {
-        $searchQuery .= ' ' . implode('* ', $searchWords) . '*';
-    }
-    error_log('Cleaned Search Query: ' . $searchQuery);
-    return $searchQuery;
+    return implode(' ', $words);
+}
+
+/**
+ * Escaped einen Wert sicher für PDO-Abfragen.
+ *
+ * @param PDO $conn Die PDO-Datenbankverbindung.
+ * @param string $value Der zu escapende Wert.
+ * @return string Der escapte Wert.
+ */
+function safeSqlValue($conn, $value) {
+    return $conn->quote(trim($value));
 }
 
 // Cache für das Schema (vermeidet mehrfaches Laden)
