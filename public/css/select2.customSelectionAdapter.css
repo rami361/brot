@@ -39,4 +39,10 @@
   background-color: transparent;
 }
 
-/*# sourceMappingURL=select2.customSelectionAdapter.css.map */
+.select2-container--bootstrap-5 .select2-selection--multiple .select2-selection__rendered {
+    row-gap: .375em;
+}
+
+.select2-container--bootstrap-5 .select2-selection--multiple .select2-selection__rendered .select2-selection__choice {
+  margin-bottom: 0 !important;
+}

@@ -80,21 +80,14 @@ foreach ($recipe['instruction_steps'] as $step) {
                     <p><?php echo nl2br(htmlspecialchars($result['description_short'])); ?></p>
                 </div>
                 <div class="row px-3">
-                    <div class="col-6 pt-1">
+                    <div class="col-12 col-md-6 pt-1">
                         <p><?php echo nl2br(htmlspecialchars($result['description_long'])); ?></p>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <!-- <h3>Zutaten</h3> -->
 
                         <div class="table-responsive">
                             <table class="table table-sm">
-                                <!-- <thead>
-                                    <tr>
-                                        <th>Gewicht</th>
-                                        <th>Zutat</th>
-                                        <th>Prozent</th>
-                                    </tr>
-                                </thead> -->
                                 <tbody>
                                     <?php foreach ($readableIngredients as $name => $opts): ?>
                                         <tr class="">
@@ -141,7 +134,7 @@ foreach ($recipe['instruction_steps'] as $step) {
                                 <div class="accordion-body px-2">
                                     <div class="container px-0">
                                         <div class="row">
-                                            <div class="col-4">
+                                            <div class="col-12 col-md-6 col-lg-4">
                                                 <div class="table-responsive">
                                                     <table class="table" style="margin-top:1px;">
                                                         <!-- <thead>
@@ -188,18 +181,19 @@ foreach ($recipe['instruction_steps'] as $step) {
                                                     </table>
                                                 </div>
                                             </div>
-                                            <div class="col-8">
+                                            <div class="col-12 col-md-6 col-lg-8">
                                                 <ol class="list-group list-group-numbered">
                                                     <?php foreach ($step['steps']['beginner'] as $subStep => $instruction): ?>
                                                         <li
                                                             class="list-group-item d-flex justify-content-between align-items-start">
-                                                            <div class="container ms-2 pe-0">
+                                                            <div class="container pe-0">
                                                                 <div class="row">
-                                                                    <label class="col-form-label stretched-link col-sm-11 py-0"
+                                                                    <label class="col-form-label stretched-link py-0"
+                                                                        style="width:calc(100% - 40px)"
                                                                         for="inst<?php echo $index.$subStep ?>">
                                                                         <?php echo htmlspecialchars($instruction); ?>
                                                                     </label>
-                                                                    <div class="col-sm-1">
+                                                                    <div class="col" style="width: 40px">
                                                                         <input class="form-check-input me-1" type="checkbox"
                                                                             value="" id="inst<?php echo $index.$subStep ?>">
                                                                     </div>

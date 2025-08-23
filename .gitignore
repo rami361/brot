@@ -1,6 +1,7 @@
 # Lokaler Ordner, der nicht ins Repo soll
 plugins/select2-customSelectionAdapter/
 debug/
+.history/
 
 # Node.js Abhängigkeiten
 node_modules/

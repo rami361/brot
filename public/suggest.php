@@ -13,7 +13,6 @@ try {
         echo json_encode([$query, $cleanQuery]);
         exit;
     }
-
     // SQL-Abfrage für Autovervollständigung
     $sql = "SELECT DISTINCT name
             FROM uebersicht

@@ -7,7 +7,7 @@ function prepareSql($sql) {
     global $conn;
     $stmt = $conn->prepare($sql);
     if ($stmt === false) {
-        die("Error: " . $conn->error);
+        die("Error: {$conn->error}");
     }
     return $stmt;
 }
@@ -33,15 +33,24 @@ function lastInsertId() {
  * @param int $minLength Mindestlänge der Wörter (Standard: 3).
  * @return string Die bereinigte Suchanfrage.
  */
-function cleanSearchQuery($query, $minLength = 3) {
+function cleanBooleanSearchQuery($query, $minLength = 3) {
     // Entferne Sonderzeichen
-    $query = preg_replace('/[^a-zA-Z0-9\s]/', '', trim($query));
+    $query = preg_replace('/[^\p{L}\p{N}\s\+\-\*"]+/u', ' ', $query);
+    $query = trim(preg_replace('/\s+/', ' ', $query));
+
     // Filtere Wörter nach Mindestlänge
-    $words = array_filter(explode(' ', $query), function($word) use ($minLength) {
-        return strlen($word) >= $minLength;
-    });
-    return implode(' ', $words);
+    $words = explode(' ', $query);
+    $words = array_filter($words, fn($w) => mb_strlen($w, 'UTF-8') >= 4);
+
+    // Nur der erste Begriff ist erforderlich (+), andere sind optional
+    $firstWord = array_shift($words);
+    $searchQuery = ">{$firstWord}*";
+    if (!empty($words)) {
+        $searchQuery .= ' ' . implode('* ', $words) . '*';
+    }
+    return $searchQuery;
 }
+
 
 /**
  * Escaped einen Wert sicher für PDO-Abfragen.
