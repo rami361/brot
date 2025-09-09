@@ -33,7 +33,7 @@ foreach ($recipe['instruction_steps'] as $step) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="de" data-bs-theme="dark">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
@@ -61,7 +61,7 @@ foreach ($recipe['instruction_steps'] as $step) {
     <link href="css/brot.css" rel="stylesheet">
 </head>
 
-<body class="bg-dark bg-gradient">
+<body class="">
     <div class="container my-5">
         <div class="card">
                     <?php if (!empty($recipe['images']['title'])): ?>
@@ -77,17 +77,17 @@ foreach ($recipe['instruction_steps'] as $step) {
                     <h5 class="card-subtitle mb-2 text-muted">
                         <?php echo htmlspecialchars($result['type'] ?? 'Unbekannt'); ?>
                     </h5>
-                    <p><?php echo nl2br(htmlspecialchars($result['description_short'])); ?></p>
                 </div>
                 <div class="row px-3">
                     <div class="col-12 col-md-6 pt-1">
+                        <p><?php echo nl2br(htmlspecialchars($result['description_short'])); ?></p>
                         <p><?php echo nl2br(htmlspecialchars($result['description_long'])); ?></p>
                     </div>
                     <div class="col-12 col-md-6">
                         <!-- <h3>Zutaten</h3> -->
 
                         <div class="table-responsive">
-                            <table class="table table-sm">
+                            <table class="table table-sm mb-0">
                                 <tbody>
                                     <?php foreach ($readableIngredients as $name => $opts): ?>
                                         <tr class="">
@@ -100,7 +100,7 @@ foreach ($recipe['instruction_steps'] as $step) {
                                                     echo "border-bottom-0"; ?>">
                                                 <?php echo htmlspecialchars($name); ?>
                                                 <?php echo !empty($opts['ta']) ? "TA\u{202F}" . htmlspecialchars($opts['ta']) : ''; ?>
-                                                <?php echo !empty($opts['info']) ? htmlspecialchars($name) : ''; ?>
+                                                <?php echo !empty($opts['info']) ? htmlspecialchars($opts['info']) : ''; ?>
                                             </td>
                                             <td
                                                 class="text-end <?php if ($opts === end($readableIngredients))
@@ -121,7 +121,7 @@ foreach ($recipe['instruction_steps'] as $step) {
                     <?php foreach ($recipe['instruction_steps'] as $index => $step): ?>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="heading<?php echo $index; ?>">
-                                <button class="accordion-button px-3 <?php echo $index !== 0 ? 'collapsed' : ''; ?>"
+                                <button class="accordion-button px-3 <?php #echo $index !== 0 ? 'collapsed' : ''; ?>"
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?php echo $index; ?>"
                                     aria-expanded="<?php echo $index === 0 ? 'true' : 'false'; ?>"
                                     aria-controls="collapse<?php echo $index; ?>">
@@ -129,63 +129,65 @@ foreach ($recipe['instruction_steps'] as $step) {
                                 </button>
                             </h2>
                             <div id="collapse<?php echo $index; ?>"
-                                class="accordion-collapse collapse <?php echo $index === 0 ? 'show' : ''; ?>"
+                                class="accordion-collapse collapse show <?php echo $index === 0 ? 'show' : ''; ?>"
                                 aria-labelledby="heading<?php echo $index; ?>" data-bs-parent222="#instructionsAccordion">
-                                <div class="accordion-body px-2">
+                                <div class="accordion-body px-2 overflow-visible">
                                     <div class="container px-0">
                                         <div class="row">
-                                            <div class="col-12 col-md-6 col-lg-4">
-                                                <div class="table-responsive">
-                                                    <table class="table" style="margin-top:1px;">
-                                                        <!-- <thead>
-                                                            <tr>
-                                                                <th>Zutat</th>
-                                                                <th>Gewicht</th>
-                                                                <th>Prozent</th>
-                                                                <th>Temperatur</th>
-                                                            </tr>
-                                                        </thead> -->
-                                                        <tbody>
-                                                            <?php
-                                                            $thisStep = array_shift($readableStepIngredients);
-                                                            $lastStep = count($thisStep);
-                                                            $currentStep = 0;
-                                                            foreach ($thisStep as $name => $opts):
-                                                                $currentStep++;
-                                                                ?>
+                                            <div class="col-12 col-md-6 col-lg-4 position-relative">
+                                                <div class="sticky-bottom">
+                                                    <div class="table-responsive">
+                                                        <table class="table">
+                                                            <!-- <thead>
                                                                 <tr>
-                                                                    <td
-                                                                        class="w-100 <?php if ($currentStep === $lastStep)
-                                                                            echo "border-bottom-0"; ?>">
-                                                                        <?php echo htmlspecialchars($name); ?>
-                                                                        <?php echo !empty($opts['ta']) ? "TA\u{202F}" . htmlspecialchars($opts['ta']) : ''; ?>
-                                                                        <?php echo !empty($opts['info']) ? htmlspecialchars($name) : ''; ?>
-                                                                    </td>
-                                                                    <td class="text-end <?php if ($currentStep === $lastStep)
-                                                                            echo "border-bottom-0"; ?>">
-                                                                        <?php echo isset($opts['weight']) ? htmlspecialchars(roundWeight($opts['weight'])) . "\u{202F}g" : ''; ?>
-                                                                    </td>
-                                                                    <td
-                                                                        class="text-end text-secondary <?php if ($currentStep === $lastStep)
-                                                                            echo "border-bottom-0"; ?>">
-                                                                        <?php echo isset($opts['percentage']) ? htmlspecialchars($opts['percentage']) . "\u{202F}%" : ''; ?>
-                                                                    </td>
-                                                                    <td
-                                                                        class="text-end <?php if ($currentStep === $lastStep)
-                                                                            echo "border-bottom-0"; ?>">
-                                                                        <?php echo isset($opts['temperature']) ? htmlspecialchars($opts['temperature']) . "\u{202F}°C" : ''; ?>
-                                                                    </td>
+                                                                    <th>Zutat</th>
+                                                                    <th>Gewicht</th>
+                                                                    <th>Prozent</th>
+                                                                    <th>Temperatur</th>
                                                                 </tr>
-                                                            <?php endforeach; ?>
-                                                        </tbody>
-                                                    </table>
+                                                            </thead> -->
+                                                            <tbody>
+                                                                <?php
+                                                                $thisStep = array_shift($readableStepIngredients);
+                                                                $lastStep = count($thisStep);
+                                                                $currentStep = 0;
+                                                                foreach ($thisStep as $name => $opts):
+                                                                    $currentStep++;
+                                                                    ?>
+                                                                    <tr>
+                                                                        <td
+                                                                            class="w-100 <?php if ($currentStep === $lastStep)
+                                                                                echo "border-bottom-0"; ?>">
+                                                                            <?php echo htmlspecialchars($name); ?>
+                                                                            <?php echo !empty($opts['ta']) ? "TA\u{202F}" . htmlspecialchars($opts['ta']) : ''; ?>
+                                                                            <?php echo !empty($opts['info']) ? htmlspecialchars($opts['info']) : ''; ?>
+                                                                        </td>
+                                                                        <td class="text-end <?php if ($currentStep === $lastStep)
+                                                                                echo "border-bottom-0"; ?>">
+                                                                            <?php echo isset($opts['weight']) ? htmlspecialchars(roundWeight($opts['weight'])) . "\u{202F}g" : ''; ?>
+                                                                        </td>
+                                                                        <td
+                                                                            class="text-end text-secondary <?php if ($currentStep === $lastStep)
+                                                                                echo "border-bottom-0"; ?>">
+                                                                            <?php echo isset($opts['percentage']) ? htmlspecialchars($opts['percentage']) . "\u{202F}%" : ''; ?>
+                                                                        </td>
+                                                                        <td
+                                                                            class="text-end <?php if ($currentStep === $lastStep)
+                                                                                echo "border-bottom-0"; ?>">
+                                                                            <?php echo isset($opts['temperature']) ? htmlspecialchars($opts['temperature']) . "\u{202F}°C" : ''; ?>
+                                                                        </td>
+                                                                    </tr>
+                                                                <?php endforeach; ?>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-8">
-                                                <ol class="list-group list-group-numbered">
+                                                <ol class="list-group list-group-numbered" style="margin-top:3px;">
                                                     <?php foreach ($step['steps']['beginner'] as $subStep => $instruction): ?>
-                                                        <li
-                                                            class="list-group-item d-flex justify-content-between align-items-start">
+                                                        <li style="margin-top:1px;"
+                                                        class="list-group-item d-flex justify-content-between align-items-start <?php echo $subStep % 2 ? 'even' : 'odd'; ?>">
                                                             <div class="container pe-0">
                                                                 <div class="row">
                                                                     <label class="col-form-label stretched-link py-0"
@@ -214,6 +216,8 @@ foreach ($recipe['instruction_steps'] as $step) {
         </div>
     </div>
     <script src="js/brot.js"></script>
+    <script>detailReady();</script>
+
 </body>
 
 </html>

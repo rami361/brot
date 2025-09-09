@@ -8,8 +8,29 @@
     --bs-heading-color: #2a2826;
     --bs-body-font-weight: 300;
     --bs-body-font-size: .875rem;
+    --bs-warning-bg-subtle: #dbd5c9;
+}
+.form-check-input:checked[type=checkbox] {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e") !important;
+}
+.list-group {
+    --bs-list-group-border-width: 0;
+}
+.list-group-item.even {
+    background: #f0ede9 !important;
+}
+.list-group-item.odd {
+    background: #e5e0da !important;
+}
+
+.accordion {
+    --bs-accordion-btn-bg: #c0bbb2;
     /* --bs-card-bg: var(--bs-body-bg); */
     /* --bs-card-border-color: #e8e3df; */
+}
+
+.col-form-label {
+    line-height: 20px !important;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -41,6 +62,10 @@ input,
     border-color: #e8e3df !important;
     background-color: transparent !important;
     color: #2a2826 !important;
+}
+
+input.form-check-input,input.form-check-input:checked,input.form-check-input:focus {
+    border-color: #2a2826 !important;
 }
 input::placeholder {
     color: #6c655f !important;
@@ -143,6 +168,12 @@ input:focus,
 .btn-check:checked+.btn {
     background: #d0c8bb !important;
     color: #2a2826 !important;
+}
+
+div.table-responsive {
+    border-radius: var(--bs-border-radius);
+    padding: 4px;
+    background: #fff;
 }
 .card {
     transition: transform 0.2s;
@@ -271,7 +302,7 @@ mark {
 }
 
 .list-group-numbered li:has(input:checked) {
-    color: var(--bs-secondary) !important;
+    color: rgba(147, 143, 139, .5) !important;
 }
 
 [data-bs-theme=dark] .accordion-button::after {

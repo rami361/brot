@@ -117,7 +117,7 @@ try {
         $relevanceExpr = $relevanceParts ? implode(' + ', $relevanceParts) : '0';
 
         $sql = "
-            SELECT u.rezepte_id, u.uebersicht_id, u.name, u.type, u.description_short, u.prep_minutes,
+            SELECT u.rezepte_id, u.uebersicht_id, u.name, u.type, u.description_short, u.prep_minutes, r.datum,
                    JSON_UNQUOTE(JSON_EXTRACT(r.rezept, '$.images.title')) AS image,
                    ($relevanceExpr) AS relevance
             FROM uebersicht u

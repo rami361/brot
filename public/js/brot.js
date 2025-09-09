@@ -63,6 +63,14 @@ function formatMinutesToHoursDays(mins) {
     //   return `${dayString}${h.toString().padStart(2,'0')}:${m.toString().padStart(2,'0')}`;
 }
 
+function formatMMYYYY(dateStr) {
+    const date = new Date(dateStr);
+    // const day = date.getDate().toString().padStart(2, '0');
+    const month = (date.getMonth() + 1).toString().padStart(2, '0'); // Monat beginnt bei 0
+    const year = date.getFullYear();
+    return `${month}/${year}`;
+}
+
 function spaces(str) {
     return str.replace(/(\d+) %/g, "$1\u{202F}%");
 }
@@ -218,7 +226,7 @@ function indexReady() {
                 success: function (response) {
                     $('#alert-searching').hide();
                     if (deepEqual(prevResponse, response)) {
-                    $('#loading').hide();
+                        $('#loading').hide();
                         return;
                     }
                     console.log(prevResponse, response);
@@ -248,7 +256,7 @@ function indexReady() {
                                                     <small>${formatMinutesToHoursDays(Math.round(item.prep_minutes / 30) * 30)}</small>
                                                 </div>
                                                 <div class="card-text prepTime text-secondary" data-minutes="${item.prep_minutes}">
-                                                    <small>ploetzblog</small>
+                                                    <small>${formatMMYYYY(item.datum)} | ploetzblog</small>
                                                 </div>
                                                 <!-- <a href="detail.php?id=${item.uebersicht_id}" class="btn btn-outline-primary btn-sm">Details</a> -->
                                             </div>
@@ -279,5 +287,61 @@ function indexReady() {
                 }
             });
         }
+    });
+}
+
+function detailReady() {
+    $(document).ready(function () {
+        $('.asd2 .sticky-bottom').each(function () {
+            var $sticky = $(this);
+            var $container = $sticky.parent();
+
+            function updateSticky() {
+                var stickyHeight = $sticky.outerHeight();
+                var containerHeight = $container.outerHeight();
+                var containerOffset = $container.offset().top;
+                var scrollTop = $(window).scrollTop();
+                var viewportHeight = $(window).height();
+                console.log(stickyHeight, containerHeight, containerOffset, scrollTop, viewportHeight, scrollTop + viewportHeight, containerOffset + containerHeight);
+
+                // nur aktivieren, wenn Sticky kleiner als Parent ist
+                if (stickyHeight < containerHeight) {
+                    console.log('Sticky größer als Container, deaktivieren');
+                    // Sticky oben anhalten, wenn Ende erreicht
+                    if (scrollTop + viewportHeight < containerOffset + containerHeight) {
+                        console.log('Sticky fixieren');
+                        $sticky.css({
+                            position: 'fixed',
+                            bottom: '0',
+                            top: 'auto',
+                            width: $container.width()
+                        });
+                    } else {
+                        console.log('Sticky unten an Container anpassen');
+                        $sticky.css({
+                            position: 'absolute',
+                            bottom: '0',
+                            top: 'auto',
+                            width: '100%'
+                        });
+                    }
+                } else {
+                    console.log('Sticky kleiner als Container, deaktivieren');
+                    // Reset, wenn Sticky kleiner als Container
+                    $sticky.css({
+                        position: '',
+                        bottom: '',
+                        top: '',
+                        width: ''
+                    });
+                }
+            }
+
+            // Initiales Update
+            // updateSticky();
+
+            // Event-Listener setzen
+            // $(window).on('scroll resize', updateSticky);
+        });
     });
 }
